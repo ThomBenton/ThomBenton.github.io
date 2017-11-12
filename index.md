@@ -4,3 +4,4 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+<script id="dsq-count-scr" src="//EXAMPLE.disqus.com/count.js" async></script>

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Blogg
 date: 2017-11-03 11:39:10 -0500
 ---
@@ -26,11 +26,11 @@ date: 2017-11-03 11:39:10 -0500
                     <h2>
                       <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
                     </h2>
+                    {{ post.excerpt }}
                   </li>
                 {% endfor %}
               </ul>
             
-              <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
         </main>
         <footer>
 

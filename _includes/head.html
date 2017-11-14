@@ -12,7 +12,6 @@
   <link rel='shortcut icon' type='image/x-icon' href='../pics/hus.ico' />
   <link rel="author" href="humans.txt" />
   {% include opengraf.html %}
-  {% if jekyll.environment == 'production' and site.google_analytics %}
-  {% include google-analytics.html %}
-  {% endif %}
+  {% include robots.txt %}
+  {% include humans.txt %}
 </head>

@@ -2,16 +2,13 @@
 ---
 
 /* TEAM */
-Creator: {{ site.owner.name }}
-Contact: {{ site.owner.email }}
-Twitter: {{ site.owner.twitter }}
-Location: {{ site.owner.location }}
-                           
-/* THANKS */                           
-Creator of Balzac theme: Cole Townsend
-Twitter: @twnsndco
+Owner: Thomas Bengtsson
+Contact: thom@bentondev.com
+Github: ThomBenton
+Location: Stockholm, Sweden
 
-/* SITE */                         
-Last update: {{ site.time | date: '%F' }}
-Standards: {{ site.tools.standards }}                        
-Software: {{ site.tools.software }}
+/* SITE */
+Last update: 2017/11/19
+Standards: HTML5, CSS3
+Components: GitHub, Disqus
+Software: Jekyll, Sass

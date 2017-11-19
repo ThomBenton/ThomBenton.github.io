@@ -3,7 +3,9 @@
  */
 .site-header {
   min-height: $spacing-unit * 1.865;
-
+  background-image: url("../pics/christmas.jpg");
+  background-size: cover;
+  background-color: $header-background-color;
   // Positioning context for the mobile navigation icon
   position: relative;
 }
@@ -49,7 +51,7 @@
     top: 9px;
     right: $spacing-unit / 2;
     background-color: $background-color;
-    border: 1px solid $grey-color-light;
+    border: 1px solid $border-color;
     border-radius: 5px;
     text-align: right;
 
@@ -104,8 +106,11 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  border-top: 1px solid $border-color;
   padding: $spacing-unit 0;
+  background-image: url("../pics/christmas.jpg");
+  background-size: cover;
+  background-color: $footer-background-color;
 }
 
 .footer-heading {
@@ -117,11 +122,21 @@
 .social-media-list {
   list-style: none;
   margin-left: 0;
+  color: $text-color;
+
+  a {
+    text-decoration: none;
+    color: $text-color;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
 }
 
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
-  color: $grey-color;
+  color: $text-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
@@ -200,7 +215,12 @@
   @include relative-font-size(1.5);
 }
 
+ul {
 
+  li {
+    list-style: none;
+  }
+}
 
 /**
  * Posts
